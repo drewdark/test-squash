@@ -14,8 +14,9 @@ public class DemoApplication {
     }
 
 
-    @GetMapping("/hello")
+    @GetMapping("/hello-spring")
     String greet() {
-        return "Hello, World!";
+        return "Hello, Spring!";
     }
+
 }
